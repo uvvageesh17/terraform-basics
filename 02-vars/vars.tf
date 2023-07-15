@@ -30,5 +30,5 @@ variable "example-list"{
 }
 
 output "example_list_op" {
-    value = "welcome to ${var.example-}"
+    value = "welcome to ${var.example_list[1]}"
 }
