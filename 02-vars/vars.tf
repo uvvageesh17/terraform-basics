@@ -32,3 +32,17 @@ variable "example-list"{
 output "example_list_op" {
     value = "welcome to ${var.example-list[1]}"
 }
+
+variable "example_map" {
+  default = {
+    key1 = "Umblekoppa"
+    key2 = "sirsi"
+    key3= 581318
+    key4= "Uttara Kannada"
+  }
+
+  output "calling_map"{
+    value = "my village is ${var.example_map.key1} , which comes under Talluk ${var.example_map.key2} , having PIN ${var.example_map.key3}"
+  }
+  
+}
