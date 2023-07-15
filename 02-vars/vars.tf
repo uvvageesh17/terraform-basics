@@ -15,9 +15,9 @@ output "call-vageeshSample" {
   value = "welocme to training for ${var.vageeshSample[1]}   tell vageesh the great master ${var.vageeshSample[2]} also tell from other ${var.vageeshSample[3]}"
 }
 
-output "sample-op" {
-    value = var.sample
-}
+# output "sample-op" {
+#     value = var.sample
+# }
 
 variable "example-list"{
     default = [
@@ -30,5 +30,5 @@ variable "example-list"{
 }
 
 output "example_list_op" {
-    value = "welcome to ${var.example_list[1]}"
+    value = "welcome to ${var.example-list[1]}"
 }
