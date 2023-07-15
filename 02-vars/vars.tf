@@ -42,7 +42,7 @@ variable "example_map" {
   }
 
   output "calling_map"{
-    value = "my village is ${var.example_map.key1} , which comes under Talluk ${var.example_map.key2} , having PIN ${var.example_map.key3}"
+    value = "my village is ${var.example_map[key1]} , which comes under Talluk ${var.example_map[key2]} , having PIN ${var.example_map[key3]}"
   }
   
 }
