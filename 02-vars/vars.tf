@@ -12,7 +12,7 @@ variable "vageeshSample" {
 }
 
 output "call-vageeshSample" {
-  value = "welocme to training for ${var.vageeshSample[1]} and  tell vageesh the great master ${var.vageeshSample[2]}"
+  value = "welocme to training for ${var.vageeshSample[1]}   tell vageesh the great master ${var.vageeshSample[2]} also tell from other ${var.vageeshSample[3]}"
 }
 
 output "sample-op" {
