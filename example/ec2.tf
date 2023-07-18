@@ -19,3 +19,7 @@ resource "aws_instance" "app" {
     Name = "TerraformServer"
   }
 }
+
+resource "aws2" "newkeyAWSname" {
+  
+}
