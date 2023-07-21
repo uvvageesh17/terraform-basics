@@ -1,5 +1,5 @@
 resource "aws_instance" "remote-app" {
-  ami           = "ami-0c1d144c8fdd8d690"
+  ami           = "ami-082237bea26382803"
   instance_type = "t3.nano"
 
   tags = {
