@@ -1,7 +1,7 @@
 
 resource "aws_instance" "sample" {
-  ami                     = "ami-082237bea26382803"
-  instance_type           = "t3.micro"
+   ami           = "ami-0c1d144c8fdd8d690"
+   instance_type = "t3.nano"
   vpc_security_group_ids  = [var.sg]
 }
 
