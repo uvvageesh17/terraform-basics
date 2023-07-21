@@ -1,5 +1,5 @@
-data "aws_ami" "Vimage" {
+data "aws_ami" "image" {
   most_recent      = true
-  name_regex       = "ami-0c1d144c8fdd8d690"
+  name_regex       = "ami-082237bea26382803"
   owners          = ["self"]
 }
